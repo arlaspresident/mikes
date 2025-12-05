@@ -1,0 +1,118 @@
+/* Shop Page */
+.shop-page {
+  background: #000;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+}
+
+.shop-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.shop-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.mike-figure-wrapper {
+  margin-bottom: 0%;
+}
+
+.mike-figure {
+  width: 200px;
+  height: auto;
+  opacity: 0.9;
+  display: block;
+}
+
+.shop-text {
+  text-align: center;
+}
+
+.shop-title {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 3rem;
+  text-transform: none;
+}
+
+.shop-title-accent {
+  color: #D4AF37;
+  font-weight: 400;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.shop-info {
+  margin-bottom: 3rem;
+}
+
+.shop-subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.02em;
+}
+
+.shop-description {
+  font-size: 1.125rem;
+  color: #999;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* Notify Section */
+.shop-notify {
+  margin-top: 3rem;
+}
+
+.notify-text {
+  font-size: 0.875rem;
+  color: #ccc;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .shop-title {
+    font-size: 2rem;
+  }
+
+  .shop-subtitle {
+    font-size: 1.25rem;
+  }
+
+  .shop-description {
+    font-size: 1rem;
+  }
+
+  .mike-image {
+    width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .shop-title {
+    font-size: 1.75rem;
+  }
+
+  .shop-subtitle {
+    font-size: 1.125rem;
+  }
+
+  .mike-image {
+    width: 120px;
+  }
+}

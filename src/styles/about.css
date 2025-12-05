@@ -1,0 +1,163 @@
+/* About Page */
+.about-page {
+  background: #000;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.about-hero {
+  padding: 6rem 0 4rem;
+  text-align: center;
+  border-bottom: 1px solid #222;
+}
+
+/* Meet Mike Section */
+.meet-mike-section {
+  padding: 8rem 0;
+}
+
+.meet-mike-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.mike-image {
+  width: 100%;
+  border: 1px solid #222;
+  overflow: hidden;
+}
+
+.mike-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.mike-content {
+  padding: 2rem 0;
+}
+
+.section-heading {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.section-heading-center {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+
+.text-block {
+  color: #ccc;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+/* Values Section */
+.values-section {
+  padding: 8rem 0;
+  background: #0a0a0a;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.value-card {
+  text-align: center;
+  padding: 2rem;
+}
+
+.value-title {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.value-text {
+  color: #999;
+  font-size: 15px;
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+/* Workshop Section */
+.workshop-section {
+  padding: 8rem 0;
+}
+
+.workshop-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.workshop-image {
+  border: 1px solid #222;
+  overflow: hidden;
+  aspect-ratio: 4/3;
+}
+
+.workshop-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* About CTA */
+.about-cta-section {
+  padding: 8rem 0;
+  text-align: center;
+  border-top: 1px solid #222;
+}
+
+.cta-heading-large {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.cta-text-large {
+  font-size: 1.125rem;
+  color: #ccc;
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+  .meet-mike-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .values-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .workshop-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,64 @@
+/* PRIMARY BUTTON - White background, black text */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  color: #000;
+  border: 2px solid #fff;
+  padding: 1rem 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  border-color: #D4AF37;
+  background: #D4AF37;
+  color: #000;
+}
+
+.btn-primary .btn-icon {
+  width: 18px;
+  height: 18px;
+  filter: brightness(0);
+  margin-left: 0.75rem;
+}
+
+/* SECONDARY BUTTON - Transparent with white border */
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 1rem 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  border-color: #D4AF37;
+  color: #D4AF37;
+}
+
+.btn-secondary .btn-icon {
+  width: 18px;
+  height: 18px;
+  filter: brightness(0) invert(1);
+  margin-left: 0.75rem;
+}
+
+.btn-secondary:hover .btn-icon {
+  filter: brightness(0) invert(0.7);
+}
