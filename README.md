@@ -1,16 +1,43 @@
-# React + Vite
+# Mike's Garage – Official Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the official website for **Mike's Garage**, a performance-focused automotive workshop based in Larnaca, Cyprus.  
+The site presents the garage's services, history, brand identity, and upcoming webshop.
 
-Currently, two official plugins are available:
+## 🚗 About the Garage
+Mike's Garage specializes in:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- BMW M-series builds and maintenance  
+- Full engine rebuilds  
+- Performance upgrades  
+- Diagnostics & troubleshooting  
+- ECU / TCU tuning  
+- Software updates  
+- General servicing for all vehicle brands
 
-## React Compiler
+Established in **2004**, the garage has grown from a single lift to a fully equipped facility with **six ramps and four professional mechanics**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- **React + Vite**
+- **CSS (handwritten)**
+- **Lucide icons**
+- **Responsive layout**
+- **Video background support**
+- **Planned Instagram integrations**
 
-## Expanding the ESLint configuration
+## 📦 Project Status
+The website is under active development.  
+The **webshop** is coming soon.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+src/
+  components/   → Reusable UI parts (Header, Footer, etc.)
+  pages/        → Main site pages (Home, Services, About, Contact, Shop)
+  assets/       → Images, icons, and media
+
+
+## 📬 Contact
+This project is built for **Mike’s Garage**
+- Email: mikesgaragecy@gmail.com  
+- Location: Larnaca, Cyprus
+
+---
