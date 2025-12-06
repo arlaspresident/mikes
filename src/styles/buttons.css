@@ -17,8 +17,8 @@
 }
 
 .btn-primary:hover {
-  border-color: #D4AF37;
-  background: #D4AF37;
+  border-color: #d4af37;
+  background: #d4af37;
   color: #000;
 }
 
@@ -48,8 +48,8 @@
 }
 
 .btn-secondary:hover {
-  border-color: #D4AF37;
-  color: #D4AF37;
+  border-color: #d4af37;
+  color: #d4af37;
 }
 
 .btn-secondary .btn-icon {

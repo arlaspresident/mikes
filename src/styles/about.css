@@ -151,12 +151,12 @@
     grid-template-columns: 1fr;
     gap: 3rem;
   }
-  
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-  
+
   .workshop-grid {
     grid-template-columns: 1fr;
   }

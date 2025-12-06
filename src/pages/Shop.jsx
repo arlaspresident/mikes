@@ -14,12 +14,17 @@ export default function Shop() {
           {/* Text Content */}
           <div className="shop-text">
             <h1 className="shop-title">
-              Hi, it's me again…<br />
-              <span className="shop-title-accent">but this time I'm bringing merch.</span>
+              Hi, it's me again…
+              <br />
+              <span className="shop-title-accent">
+                but this time I'm bringing merch.
+              </span>
             </h1>
-            
+
             <div className="shop-info">
-              <h2 className="shop-subtitle">The Mike's Garage Webshop opens soon.</h2>
+              <h2 className="shop-subtitle">
+                The Mike's Garage Webshop opens soon.
+              </h2>
               <p className="shop-description">
                 Fresh designs. Performance vibes. Zero nonsense.
               </p>
@@ -28,7 +33,10 @@ export default function Shop() {
             {/* Optional: Email notification */}
             <div className="shop-notify">
               <p className="notify-text">Want to know when we launch?</p>
-              <a href="mailto:mikesgaragecy@gmail.com?subject=Notify me about the webshop" className="btn-secondary">
+              <a
+                href="mailto:mikesgaragecy@gmail.com?subject=Notify me about the webshop"
+                className="btn-secondary"
+              >
                 GET NOTIFIED
               </a>
             </div>

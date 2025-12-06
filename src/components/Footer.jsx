@@ -16,7 +16,8 @@ export default function Footer() {
           <div className="footer-section">
             <img src={logo} alt="Mike's Garage" className="footer-logo" />
             <p className="footer-tagline">
-              Professional automotive service and repair since 2004. Specializing in BMW M cars and performance vehicles.
+              Professional automotive service and repair since 2004.
+              Specializing in BMW M cars and performance vehicles.
             </p>
           </div>
 
@@ -26,7 +27,12 @@ export default function Footer() {
             <div className="footer-contact">
               <div className="footer-contact-item">
                 <img src={phoneIcon} alt="" className="footer-icon" />
-                <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="footer-link">
+                <a
+                  href={whatsappLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="footer-link"
+                >
                   +357 97669905
                 </a>
               </div>
@@ -61,7 +67,10 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} Mike's Garage. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Mike's Garage. All rights
+            reserved.
+          </p>
         </div>
       </div>
     </footer>

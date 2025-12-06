@@ -11,19 +11,19 @@ export default function Home() {
   const services = [
     {
       icon: wrenchIcon,
-      title: 'GENERAL REPAIRS',
-      description: 'Expert mechanical repairs for all makes and models',
+      title: "GENERAL REPAIRS",
+      description: "Expert mechanical repairs for all makes and models",
     },
     {
       icon: settingsIcon,
-      title: 'MAINTENANCE',
-      description: 'Regular servicing to keep your vehicle running smoothly',
+      title: "MAINTENANCE",
+      description: "Regular servicing to keep your vehicle running smoothly",
     },
     {
       icon: carIcon,
-      title: 'DIAGNOSTICS',
-      description: 'Advanced computer diagnostics and fault finding',
-    }
+      title: "DIAGNOSTICS",
+      description: "Advanced computer diagnostics and fault finding",
+    },
   ];
 
   // Load Instagram embed script
@@ -47,9 +47,7 @@ export default function Home() {
               <div key={index} className="service-card">
                 <img src={service.icon} alt="" className="service-icon-svg" />
                 <h3 className="service-title">{service.title}</h3>
-                <p className="service-description">
-                  {service.description}
-                </p>
+                <p className="service-description">{service.description}</p>
               </div>
             ))}
           </div>
@@ -67,59 +65,59 @@ export default function Home() {
           <h2 className="section-title">FOLLOW US ON INSTAGRAM</h2>
           <p className="instagram-handle">@mikes_garage_cy</p>
           <div className="instagram-embeds">
-            <blockquote 
-              className="instagram-media" 
-              data-instgrm-permalink="https://www.instagram.com/reel/DR4bIlGDFln/?utm_source=ig_embed&utm_campaign=loading" 
+            <blockquote
+              className="instagram-media"
+              data-instgrm-permalink="https://www.instagram.com/reel/DR4bIlGDFln/?utm_source=ig_embed&utm_campaign=loading"
               data-instgrm-version="14"
               style={{
-                background: '#FFF',
+                background: "#FFF",
                 border: 0,
-                borderRadius: '3px',
-                boxShadow: '0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)',
-                margin: '1px',
-                maxWidth: '540px',
-                minWidth: '326px',
+                borderRadius: "3px",
+                boxShadow:
+                  "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)",
+                margin: "1px",
+                maxWidth: "540px",
+                minWidth: "326px",
                 padding: 0,
-                width: 'calc(100% - 2px)'
+                width: "calc(100% - 2px)",
               }}
-            >
-            </blockquote>
-            
-            <blockquote 
-              className="instagram-media" 
-              data-instgrm-permalink="https://www.instagram.com/reel/DREsXXXjHf6/?utm_source=ig_embed&utm_campaign=loading" 
+            ></blockquote>
+
+            <blockquote
+              className="instagram-media"
+              data-instgrm-permalink="https://www.instagram.com/reel/DREsXXXjHf6/?utm_source=ig_embed&utm_campaign=loading"
               data-instgrm-version="14"
               style={{
-                background: '#FFF',
+                background: "#FFF",
                 border: 0,
-                borderRadius: '3px',
-                boxShadow: '0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)',
-                margin: '1px',
-                maxWidth: '540px',
-                minWidth: '326px',
+                borderRadius: "3px",
+                boxShadow:
+                  "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)",
+                margin: "1px",
+                maxWidth: "540px",
+                minWidth: "326px",
                 padding: 0,
-                width: 'calc(100% - 2px)'
+                width: "calc(100% - 2px)",
               }}
-            >
-            </blockquote>
-            
-            <blockquote 
-              className="instagram-media" 
-              data-instgrm-permalink="https://www.instagram.com/p/DPHTFp1DCJP/?utm_source=ig_embed&utm_campaign=loading" 
+            ></blockquote>
+
+            <blockquote
+              className="instagram-media"
+              data-instgrm-permalink="https://www.instagram.com/p/DPHTFp1DCJP/?utm_source=ig_embed&utm_campaign=loading"
               data-instgrm-version="14"
               style={{
-                background: '#FFF',
+                background: "#FFF",
                 border: 0,
-                borderRadius: '3px',
-                boxShadow: '0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)',
-                margin: '1px',
-                maxWidth: '540px',
-                minWidth: '326px',
+                borderRadius: "3px",
+                boxShadow:
+                  "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)",
+                margin: "1px",
+                maxWidth: "540px",
+                minWidth: "326px",
                 padding: 0,
-                width: 'calc(100% - 2px)'
+                width: "calc(100% - 2px)",
               }}
-            >
-            </blockquote>
+            ></blockquote>
           </div>
         </div>
       </section>
@@ -137,9 +135,10 @@ export default function Home() {
             <div className="feature-content">
               <h2 className="feature-subtitle">STATE-OF-THE-ART FACILITY</h2>
               <p className="feature-text">
-                Our modern workshop is equipped with the latest diagnostic tools and lifting 
-                equipment to handle everything from routine maintenance to complex performance 
-                builds. We work on all makes and models with a specialty in European performance vehicles.
+                Our modern workshop is equipped with the latest diagnostic tools
+                and lifting equipment to handle everything from routine
+                maintenance to complex performance builds. We work on all makes
+                and models with a specialty in European performance vehicles.
               </p>
               <ul className="feature-list">
                 <li>Professional-grade diagnostic equipment</li>

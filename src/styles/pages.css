@@ -48,7 +48,7 @@
 }
 
 .service-card-large:hover {
-  border-color: #D4AF37;
+  border-color: #d4af37;
 }
 
 .service-icon-large {
@@ -113,11 +113,11 @@
   .services-grid-full {
     grid-template-columns: 1fr;
   }
-  
+
   .services-hero {
     padding: 4rem 0 3rem;
   }
-  
+
   .services-content {
     padding: 4rem 0;
   }

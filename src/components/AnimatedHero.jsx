@@ -7,7 +7,7 @@ export default function AnimatedHero() {
   const [displayText, setDisplayText] = useState("");
   const [cycleIndex, setCycleIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  
+
   const words = ["Hi,", "it's", "me", "again"];
   const fullText = "Hi, it's me again";
 
@@ -16,26 +16,29 @@ export default function AnimatedHero() {
     const pauseAfterComplete = 2000;
     const pauseAfterDelete = 500;
 
-    const timer = setTimeout(() => {
-      if (!isDeleting) {
-        // Typing
-        if (displayText.length < fullText.length) {
-          setDisplayText(fullText.slice(0, displayText.length + 1));
+    const timer = setTimeout(
+      () => {
+        if (!isDeleting) {
+          // Typing
+          if (displayText.length < fullText.length) {
+            setDisplayText(fullText.slice(0, displayText.length + 1));
+          } else {
+            // Finished typing, pause then start deleting
+            setTimeout(() => setIsDeleting(true), pauseAfterComplete);
+          }
         } else {
-          // Finished typing, pause then start deleting
-          setTimeout(() => setIsDeleting(true), pauseAfterComplete);
+          // Deleting
+          if (displayText.length > 0) {
+            setDisplayText(displayText.slice(0, -1));
+          } else {
+            // Finished deleting, move to next cycle
+            setIsDeleting(false);
+            setCycleIndex((prev) => (prev + 1) % words.length);
+          }
         }
-      } else {
-        // Deleting
-        if (displayText.length > 0) {
-          setDisplayText(displayText.slice(0, -1));
-        } else {
-          // Finished deleting, move to next cycle
-          setIsDeleting(false);
-          setCycleIndex((prev) => (prev + 1) % words.length);
-        }
-      }
-    }, isDeleting && displayText.length === 0 ? pauseAfterDelete : typingSpeed);
+      },
+      isDeleting && displayText.length === 0 ? pauseAfterDelete : typingSpeed,
+    );
 
     return () => clearTimeout(timer);
   }, [displayText, isDeleting, cycleIndex]);
@@ -44,11 +47,13 @@ export default function AnimatedHero() {
   const renderText = () => {
     const textArray = displayText.split(" ");
     return textArray.map((word, index) => {
-      const isHighlighted = words[cycleIndex] === word || 
-                           (word.endsWith(",") && words[cycleIndex] === word.slice(0, -1) + ",");
+      const isHighlighted =
+        words[cycleIndex] === word ||
+        (word.endsWith(",") && words[cycleIndex] === word.slice(0, -1) + ",");
       return (
         <span key={index} className={isHighlighted ? "gold-word" : ""}>
-          {word}{index < textArray.length - 1 ? " " : ""}
+          {word}
+          {index < textArray.length - 1 ? " " : ""}
         </span>
       );
     });
@@ -76,7 +81,8 @@ export default function AnimatedHero() {
           <span className="cursor">|</span>
         </h1>
         <p className="animated-subtitle">
-          Expert mechanics, honest service, and quality workmanship you can trust.
+          Expert mechanics, honest service, and quality workmanship you can
+          trust.
         </p>
         <Link to="/services" className="btn-primary">
           OUR SERVICES

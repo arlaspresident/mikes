@@ -3,7 +3,6 @@ import mikePhoto from "../assets/images/mike.jpg";
 import "../styles/pages.css";
 import "../styles/about.css";
 
-
 export default function About() {
   return (
     <div className="about-page">
@@ -27,29 +26,33 @@ export default function About() {
             <div className="mike-content">
               <h2 className="section-heading">MEET MIKE</h2>
               <p className="text-block">
-                Founded in 2004, Mike's Garage has been serving the local community with honest, 
-                reliable automotive services. What started as a one-man operation has grown into 
-                a fully equipped modern workshop with a team of certified technicians.
+                Founded in 2004, Mike's Garage has been serving the local
+                community with honest, reliable automotive services. What
+                started as a one-man operation has grown into a fully equipped
+                modern workshop with a team of certified technicians.
               </p>
               <p className="text-block">
-                I was born in England and moved to Cyprus at the age of six. My uncle introduced 
-                me to the car world — he used to take part in street races, and that's where 
-                everything started. At 13, I began fixing bicycles, then motorbikes, and eventually 
-                worked on my first car: a Mini, which I managed to break three times before I 
-                finally understood how an engine truly works.
+                I was born in England and moved to Cyprus at the age of six. My
+                uncle introduced me to the car world — he used to take part in
+                street races, and that's where everything started. At 13, I
+                began fixing bicycles, then motorbikes, and eventually worked on
+                my first car: a Mini, which I managed to break three times
+                before I finally understood how an engine truly works.
               </p>
               <p className="text-block">
-                At 16, I started learning the trade while attending college to earn my automotive 
-                degree. Growing up in Cyprus, we didn't have access to many resources or parts, 
-                so most of what we did was self-taught and done by hand. With a huge passion for 
-                cars, I built my first Nissan Pulsar GTIR — which became the fastest 0–400m car 
-                in my hometown of Larnaca.
+                At 16, I started learning the trade while attending college to
+                earn my automotive degree. Growing up in Cyprus, we didn't have
+                access to many resources or parts, so most of what we did was
+                self-taught and done by hand. With a huge passion for cars, I
+                built my first Nissan Pulsar GTIR — which became the fastest
+                0–400m car in my hometown of Larnaca.
               </p>
               <p className="text-block">
-                Today, we're proud to be an approved BMW workshop, equipped with 6 lifts and a 
-                team of 4 professional mechanics who share the same love for cars as I do. We 
-                specialize in European performance vehicles, particularly BMW. This isn't 
-                just my job — it's my passion, my hobby, and my life.
+                Today, we're proud to be an approved BMW workshop, equipped with
+                6 lifts and a team of 4 professional mechanics who share the
+                same love for cars as I do. We specialize in European
+                performance vehicles, particularly BMW. This isn't just my job —
+                it's my passion, my hobby, and my life.
               </p>
             </div>
           </div>
@@ -64,19 +67,22 @@ export default function About() {
             <div className="value-card">
               <h3 className="value-title">HONESTY</h3>
               <p className="value-text">
-                We never recommend work that isn't necessary. Your trust is our most valuable asset.
+                We never recommend work that isn't necessary. Your trust is our
+                most valuable asset.
               </p>
             </div>
             <div className="value-card">
               <h3 className="value-title">QUALITY</h3>
               <p className="value-text">
-                Every job is done right the first time, using quality parts and proven techniques.
+                Every job is done right the first time, using quality parts and
+                proven techniques.
               </p>
             </div>
             <div className="value-card">
               <h3 className="value-title">EXPERTISE</h3>
               <p className="value-text">
-                Our team stays current with the latest automotive technology and training.
+                Our team stays current with the latest automotive technology and
+                training.
               </p>
             </div>
           </div>
@@ -89,10 +95,16 @@ export default function About() {
           <h2 className="section-heading-center">OUR WORKSHOP</h2>
           <div className="workshop-grid">
             <div className="workshop-image">
-              <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800" alt="Workshop" />
+              <img
+                src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800"
+                alt="Workshop"
+              />
             </div>
             <div className="workshop-image">
-              <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=800" alt="Workshop Detail" />
+              <img
+                src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=800"
+                alt="Workshop Detail"
+              />
             </div>
           </div>
         </div>
