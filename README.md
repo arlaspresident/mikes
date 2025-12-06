@@ -30,9 +30,9 @@ The **webshop** is coming soon.
 
 ## 📁 Project Structure
 src/
-  components/   → Reusable UI parts (Header, Footer, etc.)
-  pages/        → Main site pages (Home, Services, About, Contact, Shop)
-  assets/       → Images, icons, and media
+  - components/   → Reusable UI parts (Header, Footer, etc.)
+  - pages/        → Main site pages (Home, Services, About, Contact, Shop)
+  - assets/       → Images, icons, and media
 
 
 ## 📬 Contact

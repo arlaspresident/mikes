@@ -116,32 +116,6 @@
   margin-top: 3rem;
 }
 
-/* Button icon styling */
-.btn-icon {
-  width: 18px;
-  height: 18px;
-  filter: brightness(0) invert(1);
-  margin-left: 0.5rem;
-  display: inline-block;
-}
-
-.btn-primary {
-  display: inline-flex;
-  align-items: center;
-}
-
-.btn-secondary {
-  display: inline-flex;
-  align-items: center;
-}
-
-.btn-primary .btn-icon {
-  filter: brightness(0); 
-}
-
-.btn-secondary .btn-icon {
-  filter: brightness(0) invert(1); 
-}
 
 /* Instagram Section */
 .instagram-section {
@@ -156,30 +130,22 @@
   font-size: 14px;
 }
 
-.instagram-grid {
+.instagram-embeds {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.instagram-item {
-  aspect-ratio: 1;
-  overflow: hidden;
-  border: 1px solid #222;
-  cursor: pointer;
-  transition: opacity 0.3s ease;
+.instagram-media {
+  margin: 0 auto !important;
 }
 
-.instagram-item:hover {
-  opacity: 0.75;
-}
-
-.instagram-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+@media (max-width: 768px) {
+  .instagram-embeds {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Feature Section */

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import AnimatedHero from "../components/AnimatedHero";
 import wrenchIcon from "../assets/icons/wrench.svg";
 import settingsIcon from "../assets/icons/settings.svg";
@@ -25,12 +26,12 @@ export default function Home() {
     }
   ];
 
-  // Placeholder images - replace these with your actual images later
-  const instagramImages = [
-    'https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=500',
-    'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=500',
-    'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500',
-  ];
+  // Load Instagram embed script
+  useEffect(() => {
+    if (window.instgrm) {
+      window.instgrm.Embeds.process();
+    }
+  }, []);
 
   return (
     <div className="home">
@@ -64,19 +65,61 @@ export default function Home() {
       <section className="instagram-section">
         <div className="container">
           <h2 className="section-title">FOLLOW US ON INSTAGRAM</h2>
-          <p className="instagram-handle">@mikesgarage</p>
-          <div className="instagram-grid">
-            {instagramImages.map((image, index) => (
-              <div
-                key={index}
-                className="instagram-item"
-              >
-                <img
-                  src={image}
-                  alt={`Instagram post ${index + 1}`}
-                />
-              </div>
-            ))}
+          <p className="instagram-handle">@mikes_garage_cy</p>
+          <div className="instagram-embeds">
+            <blockquote 
+              className="instagram-media" 
+              data-instgrm-permalink="https://www.instagram.com/reel/DR4bIlGDFln/?utm_source=ig_embed&utm_campaign=loading" 
+              data-instgrm-version="14"
+              style={{
+                background: '#FFF',
+                border: 0,
+                borderRadius: '3px',
+                boxShadow: '0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)',
+                margin: '1px',
+                maxWidth: '540px',
+                minWidth: '326px',
+                padding: 0,
+                width: 'calc(100% - 2px)'
+              }}
+            >
+            </blockquote>
+            
+            <blockquote 
+              className="instagram-media" 
+              data-instgrm-permalink="https://www.instagram.com/reel/DREsXXXjHf6/?utm_source=ig_embed&utm_campaign=loading" 
+              data-instgrm-version="14"
+              style={{
+                background: '#FFF',
+                border: 0,
+                borderRadius: '3px',
+                boxShadow: '0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)',
+                margin: '1px',
+                maxWidth: '540px',
+                minWidth: '326px',
+                padding: 0,
+                width: 'calc(100% - 2px)'
+              }}
+            >
+            </blockquote>
+            
+            <blockquote 
+              className="instagram-media" 
+              data-instgrm-permalink="https://www.instagram.com/p/DPHTFp1DCJP/?utm_source=ig_embed&utm_campaign=loading" 
+              data-instgrm-version="14"
+              style={{
+                background: '#FFF',
+                border: 0,
+                borderRadius: '3px',
+                boxShadow: '0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)',
+                margin: '1px',
+                maxWidth: '540px',
+                minWidth: '326px',
+                padding: 0,
+                width: 'calc(100% - 2px)'
+              }}
+            >
+            </blockquote>
           </div>
         </div>
       </section>
