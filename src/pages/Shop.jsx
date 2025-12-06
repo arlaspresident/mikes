@@ -1,4 +1,4 @@
-import mikeImage from "../assets/images/itsme.png";
+import mikeImage from "../assets/images/itsme-image.png";
 import "../styles/shop.css";
 
 export default function Shop() {
