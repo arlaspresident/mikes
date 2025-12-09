@@ -33,7 +33,7 @@ export default function About() {
               </p>
               <p className="text-block">
                 I was born in England and moved to Cyprus at the age of six. My
-                uncle introduced me to the car world — he used to take part in
+                uncle introduced me to the car world - he used to take part in
                 street races, and that's where everything started. At 13, I
                 began fixing bicycles, then motorbikes, and eventually worked on
                 my first car: a Mini, which I managed to break three times
@@ -44,14 +44,14 @@ export default function About() {
                 earn my automotive degree. Growing up in Cyprus, we didn't have
                 access to many resources or parts, so most of what we did was
                 self-taught and done by hand. With a huge passion for cars, I
-                built my first Nissan Pulsar GTIR — which became the fastest
+                built my first Nissan Pulsar GTIR - which became the fastest
                 0–400m car in my hometown of Larnaca.
               </p>
               <p className="text-block">
                 Today, we're proud to be an approved BMW workshop, equipped with
                 6 lifts and a team of 4 professional mechanics who share the
                 same love for cars as I do. We specialize in European
-                performance vehicles, particularly BMW. This isn't just my job —
+                performance vehicles, particularly BMW. This isn't just my job -
                 it's my passion, my hobby, and my life.
               </p>
             </div>
