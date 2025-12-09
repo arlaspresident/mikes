@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import mikePhoto from "../assets/images/mike.jpg";
+import mikePhoto from "../assets/images/mike.webp";
 import "../styles/pages.css";
 import "../styles/about.css";
 
