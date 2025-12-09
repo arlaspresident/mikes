@@ -76,7 +76,7 @@ export default function Home() {
 
             {/* Post 1 - Front BMW */}
             <a 
-              href="https://www.instagram.com/reel/DHZGjCEOJst/?igsh=enQ3Yng0bHpjMWox" 
+              href="https://www.instagram.com/reel/DHZGjCEOJst/?igsh=enQ3Yng0bHpjMWox?utm_source=ig_web_copy_link" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="instagram-card"
@@ -92,7 +92,7 @@ export default function Home() {
 
             {/* Post 2 - McLaren */}
             <a 
-              href="https://www.instagram.com/reel/DRcidizDEDq/?igsh=bDhjbHMxcTBhdGxq" 
+              href="https://www.instagram.com/reel/DRcidizDEDq/?igsh=bDhjbHMxcTBhdGxq?utm_source=ig_web_copy_link" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="instagram-card"
@@ -108,7 +108,7 @@ export default function Home() {
 
             {/* Post 3 - Rear BMW */}
             <a 
-              href="https://www.instagram.com/p/DOSxFKFDAuU/?img_index=2&igsh=MjU4dnJ2OGhxeGhw" 
+              href="https://www.instagram.com/p/DOSxFKFDAuU/?img_index=2&igsh=MjU4dnJ2OGhxeGhw?utm_source=ig_web_copy_link" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="instagram-card"
