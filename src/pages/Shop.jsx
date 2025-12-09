@@ -30,16 +30,6 @@ export default function Shop() {
               </p>
             </div>
 
-            {/* Optional: Email notification */}
-            <div className="shop-notify">
-              <p className="notify-text">Want to know when we launch?</p>
-              <a
-                href="mailto:mikesgaragecy@gmail.com?subject=Notify me about the webshop"
-                className="btn-secondary"
-              >
-                GET NOTIFIED
-              </a>
-            </div>
           </div>
         </div>
       </div>

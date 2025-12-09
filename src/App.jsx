@@ -7,6 +7,7 @@ import Services from './pages/Services';
 import About from './pages/About';
 import Shop from './pages/Shop';
 import Contact from './pages/Contact';
+import CookieBanner from "./components/CookieBanner";
 import './App.css';
 
 function ScrollToTop() {
@@ -25,6 +26,7 @@ export default function App() {
       <ScrollToTop /> 
       <div className="app">
         <Header />
+          <CookieBanner />
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
