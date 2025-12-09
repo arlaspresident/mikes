@@ -206,7 +206,9 @@
 
   .mike-image-container {
     padding-right: 0;
-    margin-bottom: -3rem;
+    margin-bottom: 2rem; 
+    position: relative;
+    padding-bottom: 3rem;
   }
 
   .mike-image-frame {
@@ -217,8 +219,8 @@
   .golden-accent {
     width: 70%;
     height: 70%;
-    bottom: -1.5rem;
-    right: 5%;
+    bottom: 0.5rem;
+    right: 1%;
   }
 
   .mike-content-card {
