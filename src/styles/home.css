@@ -195,69 +195,106 @@
 }
 
 /* Feature Section */
-.feature-section {
-  padding: 6rem 0;
-  background: #000;
-}
-
-.feature-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 4rem;
+.feature-section-dramatic {
+  position: relative;
+  min-height: 70vh;
+  display: flex;
   align-items: center;
-}
-
-.feature-image {
-  height: 500px;
-  border: 1px solid #222;
+  padding: 8rem 0;
   overflow: hidden;
 }
 
-.feature-image img {
+.feature-background {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.feature-background img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.feature-subtitle {
-  text-transform: uppercase;
-  letter-spacing: 0.3em;
-  font-size: 13px;
-  font-weight: 400;
-  margin-bottom: 1.5rem;
+.feature-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.75) 100%);
 }
 
-.feature-text {
-  color: #ccc;
-  font-size: 15px;
+.feature-content-overlay {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  background: rgba(10, 10, 10, 0.8);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  padding: 3rem;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.feature-title-dramatic {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: #D4AF37;
+}
+
+.feature-text-dramatic {
+  color: #e5e5e5;
+  font-size: 16px;
   line-height: 1.8;
   font-weight: 300;
   margin-bottom: 2rem;
 }
 
-.feature-list {
+.feature-list-dramatic {
   list-style: none;
   padding: 0;
   margin-bottom: 2.5rem;
 }
 
-.feature-list li {
-  color: #ccc;
-  font-size: 14px;
+.feature-list-dramatic li {
+  color: #e5e5e5;
+  font-size: 15px;
   font-weight: 300;
   margin-bottom: 1rem;
-  padding-left: 1.5rem;
+  padding-left: 2rem;
   position: relative;
 }
 
-.feature-list li::before {
-  content: "";
+.feature-list-dramatic li::before {
+  content: '';
   position: absolute;
   left: 0;
   top: 0.6rem;
-  width: 6px;
-  height: 6px;
-  background: #fff;
+  width: 8px;
+  height: 8px;
+  background: #D4AF37;
+  transform: rotate(45deg);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .feature-section-dramatic {
+    min-height: 60vh;
+    padding: 6rem 0;
+  }
+
+  .feature-content-overlay {
+    padding: 2rem 1.5rem;
+  }
+
+  .feature-title-dramatic {
+    font-size: 12px;
+  }
+
+  .feature-text-dramatic {
+    font-size: 14px;
+  }
 }
 
 /* CTA Section */

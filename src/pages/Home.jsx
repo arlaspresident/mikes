@@ -10,6 +10,7 @@ import "../styles/home.css";
 import mclarenImg from "../assets/images/mclaren.webp";
 import frontBmwImg from "../assets/images/frontbmw.webp";
 import rearBmwImg from "../assets/images/rearbmw.webp";
+import motorImg from "../assets/images/motor.webp";
 
 
 export default function Home() {
@@ -125,32 +126,31 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Feature Section */}
-      <section className="feature-section">
+      {/* Feature Section - Dramatic Background */}
+      <section className="feature-section-dramatic">
+        <div className="feature-background">
+          <img src={motorImg}
+            alt="Professional workshop equipment"
+          />
+          <div className="feature-overlay"></div>
+        </div>
+        
         <div className="container">
-          <div className="feature-grid">
-            <div className="feature-image">
-              <img
-                src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800"
-                alt="Professional workshop equipment"
-              />
-            </div>
-            <div className="feature-content">
-              <h2 className="feature-subtitle">STATE-OF-THE-ART FACILITY</h2>
-              <p className="feature-text">
-                Our modern workshop is equipped with the latest diagnostic tools and lifting 
-                equipment to handle everything from routine maintenance to complex performance 
-                builds. We work on all makes and models with a specialty in European performance vehicles.
-              </p>
-              <ul className="feature-list">
-                <li>Professional-grade diagnostic equipment</li>
-                <li>Certified technicians with years of experience</li>
-                <li>Specialization in BMW and performance vehicles</li>
-              </ul>
-              <Link to="/about" className="btn-secondary">
-                LEARN MORE
-              </Link>
-            </div>
+          <div className="feature-content-overlay">
+            <h2 className="feature-title-dramatic">STATE-OF-THE-ART FACILITY</h2>
+            <p className="feature-text-dramatic">
+              Our modern workshop is equipped with the latest diagnostic tools and lifting 
+              equipment to handle everything from routine maintenance to complex performance 
+              builds. We work on all makes and models with a specialty in European performance vehicles.
+            </p>
+            <ul className="feature-list-dramatic">
+              <li>Professional-grade diagnostic equipment</li>
+              <li>Certified technicians with years of experience</li>
+              <li>Specialization in BMW and performance vehicles</li>
+            </ul>
+            <Link to="/about" className="btn-secondary">
+              LEARN MORE
+            </Link>
           </div>
         </div>
       </section>
