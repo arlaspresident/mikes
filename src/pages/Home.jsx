@@ -10,7 +10,7 @@ import "../styles/home.css";
 import mclarenImg from "../assets/images/mclaren.webp";
 import frontBmwImg from "../assets/images/frontbmw.webp";
 import rearBmwImg from "../assets/images/rearbmw.webp";
-import motorImg from "../assets/images/motor.webp";
+import motorImg from "../assets/images/bmw1.webp";
 
 
 export default function Home() {

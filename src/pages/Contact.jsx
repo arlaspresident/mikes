@@ -12,7 +12,7 @@ export default function Contact() {
   const phoneNumber = "+357 97669905";
 
   // Email link
-  const emailLink = "mailto:mikesgaragecy@gmail.com";
+  const emailLink = "mailto:info@mikesgaragecy.eu";
 
   return (
     <div className="contact-page">
@@ -65,7 +65,7 @@ export default function Contact() {
                     Send us a message anytime
                   </p>
                   <a href={emailLink} className="contact-detail">
-                    mikesgaragecy@gmail.com
+                    info@mikesgaragecy.eu
                   </a>
                 </div>
               </div>
