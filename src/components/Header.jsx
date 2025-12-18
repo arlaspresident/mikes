@@ -32,9 +32,10 @@ export default function Header() {
           <NavLink to="/about" className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>
             ABOUT
           </NavLink>
-          <NavLink to="/shop" className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>
+           {/* SHOP - Hidden until client is ready to launch */}
+          {/* <NavLink to="/shop" className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>
             SHOP
-          </NavLink>
+          </NavLink> */}
           <NavLink to="/contact" className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>
             CONTACT
           </NavLink>
@@ -66,9 +67,10 @@ export default function Header() {
         <NavLink to="/about" onClick={closeMenu} className={({isActive}) => isActive ? "mobile-nav-link active" : "mobile-nav-link"}>
           ABOUT
         </NavLink>
-        <NavLink to="/shop" onClick={closeMenu} className={({isActive}) => isActive ? "mobile-nav-link active" : "mobile-nav-link"}>
-          SHOP
-        </NavLink>
+         {/* SHOP - Hidden until client is ready to launch */}
+          {/* <NavLink to="/shop" className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>
+            SHOP
+          </NavLink> */}
         <NavLink to="/contact" onClick={closeMenu} className={({isActive}) => isActive ? "mobile-nav-link active" : "mobile-nav-link"}>
           CONTACT
         </NavLink>
