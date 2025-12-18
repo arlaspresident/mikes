@@ -6,7 +6,7 @@ import "../styles/footer.css";
 
 export default function Footer() {
   const whatsappLink = "https://wa.me/35797669905";
-  const emailLink = "mailto:mikesgaragecy@gmail.com";
+  const emailLink = "info@mikesgaragecy.eu";
 
   return (
     <footer className="footer">
@@ -39,7 +39,7 @@ export default function Footer() {
               <div className="footer-contact-item">
                 <img src={mailIcon} alt="" className="footer-icon" />
                 <a href={emailLink} className="footer-link">
-                  mikesgaragecy@gmail.com
+                  info@mikesgaragecy.eu
                 </a>
               </div>
               <div className="footer-contact-item">
@@ -68,8 +68,16 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="footer-bottom">
           <p>
-            &copy; {new Date().getFullYear()} Mike's Garage. All rights
-            reserved.
+            &copy; {new Date().getFullYear()} Mike's Garage. All rights reserved.
+            {" "} | {" "}
+            <a 
+              href="mailto:jankovic.andjela@outlook.com" 
+              className="footer-credit"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Made by Andjela
+            </a>
           </p>
         </div>
       </div>

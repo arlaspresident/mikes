@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
-import mikePhoto from "../assets/images/mike.jpg";
+import mikePhoto from "../assets/images/mike.webp";
+import garagePhoto from "../assets/images/garage.webp";
+import enginePhoto from "../assets/images/engine.webp";
 import "../styles/about.css";
 
 export default function About() {
@@ -25,33 +27,33 @@ export default function About() {
               </div>
               <div className="golden-accent"></div>
             </div>
-            
+
             <div className="mike-content-card">
               <h2 className="section-heading">MEET MIKE</h2>
               <div className="content-blocks">
                 <p className="text-block">
-                  Founded in 2004, Mike's Garage has been serving the local community with honest, 
-                  reliable automotive services. What started as a one-man operation has grown into 
+                  Founded in 2004, Mike's Garage has been serving the local community with honest,
+                  reliable automotive services. What started as a one-man operation has grown into
                   a fully equipped modern workshop with a team of certified technicians.
                 </p>
                 <p className="text-block">
-                  I was born in England and moved to Cyprus at the age of six. My uncle introduced 
-                  me to the car world — he used to take part in street races, and that's where 
-                  everything started. At 13, I began fixing bicycles, then motorbikes, and eventually 
-                  worked on my first car: a Mini, which I managed to break three times before I 
+                  I was born in England and moved to Cyprus at the age of six. My uncle introduced
+                  me to the car world — he used to take part in street races, and that's where
+                  everything started. At 13, I began fixing bicycles, then motorbikes, and eventually
+                  worked on my first car: a Mini, which I managed to break three times before I
                   finally understood how an engine truly works.
                 </p>
                 <p className="text-block">
-                  At 16, I started learning the trade while attending college to earn my automotive 
-                  degree. Growing up in Cyprus, we didn't have access to many resources or parts, 
-                  so most of what we did was self-taught and done by hand. With a huge passion for 
-                  cars, I built my first Nissan Pulsar GTIR — which became the fastest 0–400m car 
+                  At 16, I started learning the trade while attending college to earn my automotive
+                  degree. Growing up in Cyprus, we didn't have access to many resources or parts,
+                  so most of what we did was self-taught and done by hand. With a huge passion for
+                  cars, I built my first Nissan Pulsar GTIR — which became the fastest 0–400m car
                   in my hometown of Larnaca.
                 </p>
                 <p className="text-block">
-                  Today, we're proud to be an approved BMW workshop, equipped with 6 lifts and a 
-                  team of 4 professional mechanics who share the same love for cars as I do. We 
-                  specialize in European performance vehicles, particularly BMW and Audi. This isn't 
+                  Today, we're proud to be an approved BMW workshop, equipped with 6 lifts and a
+                  team of 4 professional mechanics who share the same love for cars as I do. We
+                  specialize in European performance vehicles, particularly BMW and Audi. This isn't
                   just my job — it's my passion, my hobby, and my life.
                 </p>
               </div>
@@ -93,10 +95,10 @@ export default function About() {
           <h2 className="section-heading-center">OUR WORKSHOP</h2>
           <div className="workshop-grid">
             <div className="workshop-image">
-              <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800" alt="Workshop" />
+              <img src={garagePhoto} alt="Mike's Garage Workshop" />
             </div>
             <div className="workshop-image">
-              <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=800" alt="Workshop Detail" />
+              <img src={enginePhoto} alt="Engine Work at Mike's Garage" />
             </div>
           </div>
         </div>
