@@ -323,6 +323,21 @@
   margin-right: auto;
 }
 
+
+.feature-bg-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .feature-bg-desktop {
+    display: none;
+  }
+  
+  .feature-bg-mobile {
+    display: block;
+  }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .hero-title {

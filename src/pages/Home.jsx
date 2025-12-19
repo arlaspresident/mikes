@@ -11,6 +11,7 @@ import mclarenImg from "../assets/images/mclaren.webp";
 import frontBmwImg from "../assets/images/frontbmw.webp";
 import rearBmwImg from "../assets/images/rearbmw.webp";
 import motorImg from "../assets/images/bmw1.webp";
+import motorImgMobile from "../assets/images/bmw1standing.webp";
 
 
 export default function Home() {
@@ -74,7 +75,6 @@ export default function Home() {
           <p className="instagram-handle">@mikes_garage_cy</p>
           <div className="instagram-custom-grid">
            
-
             {/* Post 1 - Front BMW */}
             <a 
               href="https://www.instagram.com/reel/DHZGjCEOJst/?igsh=enQ3Yng0bHpjMWox?utm_source=ig_web_copy_link" 
@@ -129,8 +129,17 @@ export default function Home() {
       {/* Feature Section - Dramatic Background */}
       <section className="feature-section-dramatic">
         <div className="feature-background">
-          <img src={motorImg}
+          {/* Desktop Image */}
+          <img 
+            src={motorImg}
             alt="Professional workshop equipment"
+            className="feature-bg-desktop"
+          />
+          {/* Mobile Image */}
+          <img 
+            src={motorImgMobile}
+            alt="Professional workshop equipment"
+            className="feature-bg-mobile"
           />
           <div className="feature-overlay"></div>
         </div>
