@@ -67,6 +67,7 @@ export default function AnimatedHero() {
             loop 
             muted 
             playsInline
+            preload="auto"
             onError={() => setVideoError(true)}
           >
             <source src="/mikes_background.mp4" type="video/mp4" />
