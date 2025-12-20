@@ -53,7 +53,7 @@ export default function About() {
                 <p className="text-block">
                   Today, we're proud to be an approved BMW workshop, equipped with 6 lifts and a
                   team of 4 professional mechanics who share the same love for cars as I do. We
-                  specialize in European performance vehicles, particularly BMW and Audi. This isn't
+                  specialize in European performance vehicles, particularly BMW. This isn't
                   just my job — it's my passion, my hobby, and my life.
                 </p>
               </div>
