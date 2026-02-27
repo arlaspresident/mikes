@@ -2,6 +2,13 @@ import { Link } from "react-router-dom";
 import mikePhoto from "../assets/images/mike.webp";
 import garagePhoto from "../assets/images/garage.webp";
 import enginePhoto from "../assets/images/engine.webp";
+import frontBmwPhoto from "../assets/images/frontbmw.webp";
+import rearBmwPhoto from "../assets/images/rearbmw.webp";
+import mclarenPhoto from "../assets/images/mclaren.webp";
+import bmw1Photo from "../assets/images/bmw1.webp";
+import motorPhoto from "../assets/images/motor.webp";
+import img6468 from "../assets/images/IMG_6468.jpg";
+import WorkshopCarousel from "../components/WorkshopCarousel";
 import "../styles/about.css";
 
 export default function About() {
@@ -38,7 +45,7 @@ export default function About() {
                 </p>
                 <p className="text-block">
                   I was born in England and moved to Cyprus at the age of six. My uncle introduced
-                  me to the car world — he used to take part in street races, and that's where
+                  me to the car world. He used to take part in street races, and that's where
                   everything started. At 13, I began fixing bicycles, then motorbikes, and eventually
                   worked on my first car: a Mini, which I managed to break three times before I
                   finally understood how an engine truly works.
@@ -47,14 +54,14 @@ export default function About() {
                   At 16, I started learning the trade while attending college to earn my automotive
                   degree. Growing up in Cyprus, we didn't have access to many resources or parts,
                   so most of what we did was self-taught and done by hand. With a huge passion for
-                  cars, I built my first Nissan Pulsar GTIR — which became the fastest 0–400m car
+                  cars, I built my first Nissan Pulsar GTIR, which became the fastest 0-400m car
                   in my hometown of Larnaca.
                 </p>
                 <p className="text-block">
                   Today, we're proud to be an approved BMW workshop, equipped with 6 lifts and a
                   team of 4 professional mechanics who share the same love for cars as I do. We
                   specialize in European performance vehicles, particularly BMW. This isn't
-                  just my job — it's my passion, my hobby, and my life.
+                  just my job. It's my passion, my hobby, and my life.
                 </p>
               </div>
             </div>
@@ -93,14 +100,16 @@ export default function About() {
       <section className="workshop-section">
         <div className="container">
           <h2 className="section-heading-center">OUR WORKSHOP</h2>
-          <div className="workshop-grid">
-            <div className="workshop-image">
-              <img src={garagePhoto} alt="Mike's Garage Workshop" />
-            </div>
-            <div className="workshop-image">
-              <img src={enginePhoto} alt="Engine Work at Mike's Garage" />
-            </div>
-          </div>
+          <WorkshopCarousel images={[
+            { src: garagePhoto,   alt: "Mike's Garage Workshop" },
+            { src: enginePhoto,   alt: "Engine Work at Mike's Garage" },
+            { src: frontBmwPhoto, alt: "BMW at Mike's Garage" },
+            { src: rearBmwPhoto,  alt: "BMW rear at Mike's Garage" },
+            { src: mclarenPhoto,  alt: "McLaren at Mike's Garage" },
+            { src: bmw1Photo,     alt: "BMW engine at Mike's Garage" },
+            { src: motorPhoto,    alt: "Motor at Mike's Garage" },
+            { src: img6468,       alt: "Mike's Garage" },
+          ]} />
         </div>
       </section>
 

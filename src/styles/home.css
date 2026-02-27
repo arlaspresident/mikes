@@ -67,8 +67,8 @@
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  font-size: 13px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 500;
   margin-bottom: 4rem;
 }
 
@@ -99,14 +99,14 @@
 .service-title {
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 500;
   margin-bottom: 1rem;
 }
 
 .service-description {
   color: #999;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
   font-weight: 300;
 }
@@ -125,11 +125,18 @@
 }
 
 .instagram-handle {
+  display: block;
   text-align: center;
   color: #999;
   margin-bottom: 3rem;
   font-size: 14px;
   font-weight: 300;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.instagram-handle:hover {
+  color: #D4AF37;
 }
 .instagram-custom-grid {
   display: grid;
@@ -237,7 +244,7 @@
 .feature-title-dramatic {
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 500;
   margin-bottom: 1.5rem;
   color: #D4AF37;
@@ -308,8 +315,8 @@
 .cta-title {
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  font-size: 13px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: 500;
   margin-bottom: 1.5rem;
 }
 

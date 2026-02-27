@@ -72,7 +72,14 @@ export default function Home() {
       <section className="instagram-section">
         <div className="container">
           <h2 className="section-title">FOLLOW US ON INSTAGRAM</h2>
-          <p className="instagram-handle">@mikes_garage_cy</p>
+          <a
+            href="https://www.instagram.com/mikes_garage_cy/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="instagram-handle"
+          >
+            @mikes_garage_cy
+          </a>
           <div className="instagram-custom-grid">
            
             {/* Post 1 - Front BMW */}

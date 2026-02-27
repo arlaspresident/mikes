@@ -14,8 +14,8 @@
 .page-title {
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  font-size: 13px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: 500;
   margin-bottom: 1rem;
 }
 
@@ -81,8 +81,8 @@
 .section-heading {
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  font-size: 13px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 500;
   margin-bottom: 2rem;
   color: #D4AF37;
 }
@@ -95,7 +95,7 @@
 
 .text-block {
   color: #ccc;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.8;
   font-weight: 300;
 }
@@ -104,8 +104,8 @@
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  font-size: 13px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 500;
   margin-bottom: 4rem;
 }
 
@@ -133,14 +133,14 @@
 .value-title {
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 600;
   margin-bottom: 1.5rem;
 }
 
 .value-text {
   color: #999;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.7;
   font-weight: 300;
 }
@@ -185,7 +185,7 @@
 .cta-heading-large {
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  font-size: 15px;
+  font-size: 22px;
   font-weight: 500;
   margin-bottom: 1.5rem;
 }

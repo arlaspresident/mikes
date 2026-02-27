@@ -82,13 +82,14 @@ export default function Services() {
         <div className="container">
           <div className="services-grid-full">
             {services.map((service, index) => (
-              <div key={index} className="service-card-large">
+              <Link key={index} to="/contact" className="service-card-large">
                 <img src={service.icon} alt="" className="service-icon-svg" />
                 <h3 className="service-title-large">{service.title}</h3>
                 <p className="service-description-large">
                   {service.description}
                 </p>
-              </div>
+                <span className="service-book-link">BOOK THIS SERVICE →</span>
+              </Link>
             ))}
           </div>
         </div>
